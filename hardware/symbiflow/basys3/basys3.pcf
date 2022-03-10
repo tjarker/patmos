@@ -1,16 +1,16 @@
 # basys3 100 MHz CLK
-set_io clk W5
+set_io clock W5
 
 set_io reset A16
 
-set_io oLedsPins_led[0] U16
-set_io oLedsPins_led[1] E19
-set_io oLedsPins_led[2] U19
-set_io oLedsPins_led[3] V19
-set_io oLedsPins_led[4] W18
-set_io oLedsPins_led[5] U15
-set_io oLedsPins_led[6] U14
-set_io oLedsPins_led[7] V14
+set_io io_Leds_led[0] U16
+set_io io_Leds_led[1] E19
+set_io io_Leds_led[2] U19
+set_io io_Leds_led[3] V19
+set_io io_Leds_led[4] W18
+set_io io_Leds_led[5] U15
+set_io io_Leds_led[6] U14
+set_io io_Leds_led[7] V14
 
-set_io iUartPins_rxd B18
-set_io oUartPins_txd A18
+set_io io_UartCmp_rx B18
+set_io io_UartCmp_tx A18
